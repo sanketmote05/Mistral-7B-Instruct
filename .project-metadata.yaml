@@ -14,13 +14,15 @@ environment_variables:
     gpu:
       default: 0
       description: Number of GPUs
+
     HF_TOKEN:
-      default:
+      default: ""
       description: Hugging Face Token (HuggingFace->Settings->Access Tokens)
       required: true
       tooltip: Get your token from HuggingFace->Settings->Access Tokens
+
     HUGGING_FACE_HUB_TOKEN:
-      default:
+      default: ""
       description: Hugging Face Token (HuggingFace->Settings->Access Tokens)
       required: true
       tooltip: Get your token from HuggingFace->Settings->Access Tokens
