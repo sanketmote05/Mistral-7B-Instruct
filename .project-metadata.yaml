@@ -8,9 +8,11 @@ environment_variables:
     cpu:
       default: 2
       description: Number of CPUs
+
     memory:
       default: 16
       description: Memory in GB
+
     gpu:
       default: 0
       description: Number of GPUs
@@ -24,7 +26,7 @@ environment_variables:
     HUGGING_FACE_HUB_TOKEN:
       default: ""
       description: Hugging Face Token (HuggingFace->Settings->Access Tokens)
-      required: true
+      required: false
       tooltip: Get your token from HuggingFace->Settings->Access Tokens
 
 runtimes:
