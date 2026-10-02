@@ -20,7 +20,7 @@ environment_variables:
     HF_TOKEN:
       default: "TEST"
       description: Hugging Face Token (HuggingFace->Settings->Access Tokens)
-      required: true
+      required: false
       tooltip: Get your token from HuggingFace->Settings->Access Tokens
 
     HUGGING_FACE_HUB_TOKEN:
